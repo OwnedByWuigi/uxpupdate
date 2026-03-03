@@ -23,4 +23,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: r3dfox-updater
-          path: dist/r3dupdate.exe
+          path: dist/uxpupdate.exe
