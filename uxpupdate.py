@@ -36,11 +36,11 @@ print(f"Detected: Windows {winver.split('.')[0]}, {arch}")
 
 if not os.path.exists(INSTALL_DIR):
     print(f"Dactyloidae not installed in:\n  {INSTALL_DIR}")
-    print("Please install r3dfox first.")
+    print("Please install Dactyloidae first.")
     sys.exit(1)
 
 if not os.path.exists(FIREFOX_EXE):
-    print("dactyloidaex.exe missing. Corrupted install?")
+    print("dactyloidae.exe missing. Corrupted install?")
     sys.exit(1)
 
 def get_current_version():
